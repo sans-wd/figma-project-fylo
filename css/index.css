@@ -1,0 +1,128 @@
+.karkas{
+position: relative;
+width: 1440px;
+height: 2335px;
+background: transparent;
+float: left;
+}
+.first_part{
+    position: absolute;
+    width: 1280px;
+    height: 49px;
+    left: 80px;
+    top: 65px;
+    background: white;
+    float: left;
+}
+
+.logo{
+    float: left;
+    height: inherit;
+}
+ 
+.navbar{
+    display: flex;
+    justify-content: center;
+    float: right;
+    height: 49px;
+    
+}
+
+.navbar ul{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding: 4px;
+    margin: 13px 13px;
+    box-sizing: border-box;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+
+
+color: #07043B;
+}
+
+.second_part{
+    position: absolute;
+width: 1280px;
+height: 474px;
+left: 80px;
+top: 239px;
+background: white;
+
+}
+
+
+
+
+.main::before{
+    content: "All your files in one secure location, accessible anywhere";
+    position: absolute;
+    width: 627px;
+    height: 120px;
+    left: 80px;
+    top: 266px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.main::after{
+    content: "Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.";
+    position: absolute;
+    width: 585px;
+    height: 72px;
+    left: 80px;
+    top: 401px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53125px;
+    color: #07043B;
+}
+.main img{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+.main .btn{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    top: 520px;
+    left: 430px;
+    color: white;
+    background: #2F65F8;
+    border: #2F65F8;
+    border-radius: 3.125px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}
+.main input{
+    position: absolute;
+    width: 320px;
+    height: 45px;
+    top: 518px;
+    left: 80px;
+    border: 0.625px solid #07043B;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+}
+.btn:hover{
+    cursor: pointer;
+    transition: 0.7s;
+}
